@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "timejp-cli"
+version = "0.1.0"
+description = "Show current time in Tokyo and London (DST-aware)"
+readme = ""
+requires-python = ">=3.9"
+authors = [{ name = "You" }]
+
+[project.scripts]
+timejp = "timejp_cli.cli:run"
